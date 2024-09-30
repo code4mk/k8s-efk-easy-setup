@@ -17,9 +17,9 @@ k8s-efk-easy-setup/
 ├── install.sh
 ├── config/
 │   ├── elasticsearch-values.yml
-│   ├── fluent-bit-config.yml
 │   └── kibana-values.yml
 └── manifests/
+    ├── fluent-bit-config.yml
     ├── fluent-bit-daemonset.yml
     └── fluent-bit-rbac.yml
 ```
@@ -66,7 +66,7 @@ You can customize the EFK stack by modifying the following configuration files:
 
 - `config/elasticsearch-values.yml`: Elasticsearch Helm values
 - `config/kibana-values.yml`: Kibana Helm values
-- `config/fluent-bit-config.yml`: Fluent Bit configuration
+- `manifests/fluent-bit-config.yml`: Fluent Bit configuration
 - `manifests/fluent-bit-daemonset.yml`: Fluent Bit DaemonSet specification
 
 ## Uninstallation

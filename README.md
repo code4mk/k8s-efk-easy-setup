@@ -28,7 +28,7 @@ k8s-efk-easy-setup/
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/k8s-efk-easy-setup.git
+   git clone https://github.com/code4mk/k8s-efk-easy-setup.git
    cd k8s-efk-easy-setup
    ```
 
